@@ -44,7 +44,7 @@ def boss_key():
     global bimg, NOW_PAUSE
     NOW_PAUSE = True
     tp = Toplevel()
-    bimg = PhotoImage(file='images/bossimg.png')
+    bimg = PhotoImage(file='bossimg.png')
     lb = Label(tp, image=bimg)
     lb.pack()
 
@@ -207,7 +207,7 @@ Score_label.pack(anchor='w')
 
 create_canvas()
 
-birdImg = PhotoImage(file='images/player.png')
+birdImg = PhotoImage(file='player.png')
 bird = w.create_image(100, BIRD_Y, image=birdImg)
 
 # to set up the bird.
